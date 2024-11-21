@@ -1,5 +1,6 @@
-import SectionHeader from "@/_components/section=-header";
+import SectionHeader from "@/_components/section-header";
 import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 export default function WhyWiremi() {
@@ -23,8 +24,8 @@ export default function WhyWiremi() {
 				<div className="flex flex-col gap-4">
 					<SectionHeader className="text-[#105CE2]">Why Wiremi</SectionHeader>
 					<h4 className="font-recoleta-alt-sb mb-4 font-semibold text-[28px]">
-						We accelerate <span>financial</span> inclusion and sustainable
-						growth
+						We accelerate <span className="text-[#105CE2]">financial</span>{" "}
+						inclusion and sustainable growth
 					</h4>
 					<p className="font-light text-xl text-[#57686F]">
 						At Wiremi, our mission is clear: to drive sustainable and inclusive
@@ -40,7 +41,7 @@ export default function WhyWiremi() {
 						className="!bg-[#105CE2] hover:backdrop-opacity-90 transition-opacity duration-300 w-fit rounded-full"
 						size={"lg"}
 					>
-						Read more
+						Read more <ArrowRight />
 					</Button>
 				</div>
 				<div className="flex flex-col gap-4 md:gap-5 items-center">
