@@ -23,7 +23,7 @@ export default function Hero() {
 					We help individuals and businesses to securely send and receive money
 					globally, without too much fees!
 				</p>
-				<GetApp className="flex-row self-center" />
+				<GetApp className="sm:flex-row self-center" />
 				<Image
 					src="/hero-img.png"
 					height={580}

@@ -8,7 +8,7 @@ export default function Featured() {
 					We offer fast and <span className="text-[#105CE2]">secure</span> money
 					transfers
 				</h3>
-				<div className="flex gap-4 mx-auto">
+				<div className="flex flex-col md:flex-row gap-4 mx-auto">
 					{/* Card 1 */}
 					<div className="px-8 pt-8 flex flex-col items-center justify-center bg-gradient-to-b from-[#0149A9] to-[#001D43] rounded-lg text-white max-w-md">
 						<div className="flex items-center justify-center mb-4">

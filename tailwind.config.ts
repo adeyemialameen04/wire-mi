@@ -20,7 +20,7 @@ export default {
 				"2xl": "4rem",
 			},
 			screens: {
-				"2xl": "1400px",
+				"2xl": "1440px",
 			},
 		},
 		extend: {
@@ -30,6 +30,7 @@ export default {
 				"be-vietnam-pro": ["var(--font-be-vietnam-pro)"],
 				"recoleta-md": ["var(--font-recoleta-medium)"],
 				"recoleta-alt-thin": ["var(--font-recoleta-thin)"],
+				"recoleta-alt-sb": ["var(--font-recoleta-semibold)"],
 			},
 			colors: {
 				background: "hsl(var(--background))",
