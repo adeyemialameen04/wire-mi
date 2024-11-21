@@ -2,7 +2,13 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import SiteHeader from "@/_components/site-header/site-header";
-import { geistSans, geistMono, beVietnamPro } from "@/lib/fonts";
+import {
+	geistSans,
+	geistMono,
+	beVietnamPro,
+	recoletaMedium,
+	recoletaAltThin,
+} from "@/lib/fonts";
 import Footer from "@/_components/footer";
 
 export const metadata: Metadata = {
@@ -18,9 +24,9 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased ${beVietnamPro.variable} font-be-vietnam-pro text-white dark:text-black`}
+				className={`${geistSans.variable} ${geistMono.variable} ${recoletaMedium.variable} ${recoletaAltThin.variable} antialiased ${beVietnamPro.variable} font-be-vietnam-pro text-white dark:text-black`}
 			>
-				<SiteHeader />
+				{/* <SiteHeader /> */}
 				{children}
 				<Footer />
 			</body>

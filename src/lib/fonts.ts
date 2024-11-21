@@ -13,6 +13,18 @@ export const geistMono = localFont({
 	weight: "100 900",
 });
 
+export const recoletaMedium = localFont({
+	src: "../app/fonts/Recoleta-Medium.woff2",
+	variable: "--font-recoleta-medium",
+	weight: "500",
+});
+
+export const recoletaAltThin = localFont({
+	src: "../app/fonts/RecoletaAlt-Thin.woff2",
+	variable: "--font-recoleta-thin",
+	weight: "500",
+});
+
 export const beVietnamPro = Be_Vietnam_Pro({
 	variable: "--font-be-vietnam-pro",
 	subsets: ["latin"],

@@ -28,6 +28,8 @@ export default {
 				"dm-sans": ["var(--font-dm-sans)"],
 				"space-grotesk": ["var(--font-space-grotesk)"],
 				"be-vietnam-pro": ["var(--font-be-vietnam-pro)"],
+				"recoleta-md": ["var(--font-recoleta-medium)"],
+				"recoleta-alt-thin": ["var(--font-recoleta-thin)"],
 			},
 			colors: {
 				background: "hsl(var(--background))",
