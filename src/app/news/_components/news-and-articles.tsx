@@ -18,7 +18,7 @@ export default function NewsAndArticles() {
 				</h5>
 				<p className="text-[#57686F]">
 					Explore the latest insights, trends, and tips on finance, investments,
-					and technology with Wiremi's blog."
+					and technology with Wiremi&apos;s blog.&quot;
 				</p>
 			</div>
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">

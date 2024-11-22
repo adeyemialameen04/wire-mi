@@ -6,8 +6,9 @@ import Link from "next/link";
 
 export default async function NewsDetailPage({
 	params,
-}: { params: { id: string } }) {
-	const newsId = await params.id;
+}: { params: Promise<{ id: string }> }) {
+	const newsId = (await params).id;
+	console.log(newsId);
 	const newsItem = news[0];
 
 	return (
