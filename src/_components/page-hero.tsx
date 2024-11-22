@@ -1,5 +1,4 @@
 import Image from "next/image";
-import SiteHeader from "./site-header/site-header";
 import SectionHeader from "./section-header";
 
 export default function PageHero({

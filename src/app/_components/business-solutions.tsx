@@ -1,7 +1,6 @@
 import SectionHeader from "@/_components/section-header";
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
-import { ArrowRight, Sparkles } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 

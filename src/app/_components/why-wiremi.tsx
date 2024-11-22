@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import AboutUsBanner from "../about-us/_components/hero-banner";
 import { cn } from "@/lib/utils";
 
 export default function WhyWiremi({ about }: { about: boolean }) {

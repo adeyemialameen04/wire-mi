@@ -1,5 +1,4 @@
 import SectionHeader from "@/_components/section-header";
-import { Sparkles } from "lucide-react";
 import Image from "next/image";
 const data = [
 	{
@@ -41,7 +40,7 @@ export default function Innovation() {
 					className="object-cover"
 				/>
 				<div className="flex flex-col md:flex-row md:text-center gap-5">
-					{data.map((item, index) => (
+					{data.map((item) => (
 						<div className="flex flex-col gap-4" key={item.title}>
 							<h5 className="text-[#105CE2] font-recoleta-alt-sb font-semibold text-2xl">
 								{item.title}
