@@ -53,11 +53,11 @@ export default function WhyWiremi({ about }: { about: boolean }) {
 							From digital banking to microfinance, we offer a range of services
 							designed to promote financial resilience and empowerment. At
 							Wiremi, we recognize that sustainable growth is essential for
-							long-term prosperity. That's why we invest in initiatives that
-							promote environmental sustainability, social equity, and economic
-							resilience. By integrating sustainability into our business
-							practices, we aim to create lasting value for society and the
-							planet. Through targeted investments, capacity-building
+							long-term prosperity. That&apos;s why we invest in initiatives
+							that promote environmental sustainability, social equity, and
+							economic resilience. By integrating sustainability into our
+							business practices, we aim to create lasting value for society and
+							the planet. Through targeted investments, capacity-building
 							programs,and advocacy efforts, Wiremi is driving positive change.
 							We work with stakeholders across sectors to build a more inclusive
 							and sustainable future. Together, we can unlock the potential of
