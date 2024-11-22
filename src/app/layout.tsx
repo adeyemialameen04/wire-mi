@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import {
-	geistSans,
-	geistMono,
 	beVietnamPro,
 	recoletaMedium,
 	recoletaAltThin,
 	recoletaAltSemiBold,
 	recoletaSemiBold,
+	recoletaAltMedium,
 } from "@/lib/fonts";
 import Footer from "@/_components/footer";
 
@@ -24,7 +23,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${recoletaMedium.variable} ${recoletaAltThin.variable} ${recoletaAltSemiBold.variable} ${recoletaSemiBold.variable} ${beVietnamPro.variable} font-be-vietnam-pro text-white dark:text-black antialiased`}
+				className={`${recoletaAltMedium.variable} ${recoletaMedium.variable} ${recoletaAltThin.variable} ${recoletaAltSemiBold.variable} ${recoletaSemiBold.variable} ${beVietnamPro.variable} font-be-vietnam-pro text-white dark:text-black antialiased`}
 			>
 				{/* <SiteHeader /> */}
 				{children}

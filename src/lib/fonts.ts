@@ -19,6 +19,12 @@ export const recoletaMedium = localFont({
 	weight: "500",
 });
 
+export const recoletaAltMedium = localFont({
+	src: "../app/fonts/RecoletaAlt-Medium.woff2",
+	variable: "--font-recoleta-alt-medium",
+	weight: "500",
+});
+
 export const recoletaAltThin = localFont({
 	src: "../app/fonts/RecoletaAlt-Thin.woff2",
 	variable: "--font-recoleta-alt-thin",

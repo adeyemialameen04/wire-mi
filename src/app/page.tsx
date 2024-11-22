@@ -1,3 +1,4 @@
+import BusinessSolutions from "./_components/business-solutions";
 import Featured from "./_components/featured";
 import Hero from "./_components/hero";
 import HowItWorks from "./_components/how-it-works";
@@ -16,6 +17,7 @@ export default function Home() {
 			<VirtualCards />
 			<OurServices />
 			<HowItWorks />
+			<BusinessSolutions />
 		</>
 	);
 }

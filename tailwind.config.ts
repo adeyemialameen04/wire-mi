@@ -31,6 +31,7 @@ export default {
 				"recoleta-md": ["var(--font-recoleta-medium)"],
 				"recoleta-alt-thin": ["var(--font-recoleta-alt-thin)"],
 				"recoleta-alt-sb": ["var(--font-recoleta-alt-semibold)"],
+				"recoleta-alt-md": ["var(--font-recoleta-alt-medium)"],
 				"recoleta-sb": ["var(--font-recoleta-semibold)"],
 			},
 			colors: {
