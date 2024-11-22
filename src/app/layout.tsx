@@ -9,6 +9,7 @@ import {
 	recoletaAltMedium,
 } from "@/lib/fonts";
 import Footer from "@/_components/footer";
+import CTA from "@/_components/cta";
 
 export const metadata: Metadata = {
 	title: "Create Next App",
@@ -27,6 +28,7 @@ export default function RootLayout({
 			>
 				{/* <SiteHeader /> */}
 				{children}
+				<CTA />
 				<Footer />
 			</body>
 		</html>
