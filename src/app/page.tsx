@@ -13,7 +13,7 @@ export default function Home() {
 		<>
 			<Hero />
 			<Featured />
-			<WhyWiremi />
+			<WhyWiremi about={false} />
 			<MultiCurrencyAccount />
 			<VirtualCards />
 			<OurServices />
