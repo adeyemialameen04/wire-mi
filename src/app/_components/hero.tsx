@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Hero() {
 	return (
 		<div className="relative pt-20 text-white w-full overflow-hidden">
-			<div className="absolute inset-0 bg-[#014a9a]" />
+			<div className="absolute inset-0 bg-gradient-to-b from-[#014a9a] to-[#2A94F4]" />
 			<div
 				style={{
 					backgroundImage: "url(/curly-bg.jpg)",
@@ -12,7 +12,7 @@ export default function Hero() {
 					backgroundPosition: "center",
 					backgroundRepeat: "no-repeat",
 				}}
-				className="absolute inset-0 mix-blend-multiply opacity-[0.01]"
+				className="absolute inset-0 mix-blend-multiply opacity-[0.02]"
 				data-testid="banner"
 			/>
 			<div className="relative container mx-auto px-6 text-center z-10 flex flex-col">

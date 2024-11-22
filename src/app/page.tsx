@@ -1,6 +1,8 @@
 import Featured from "./_components/featured";
 import Hero from "./_components/hero";
 import MultiCurrencyAccount from "./_components/multi-currency";
+import OurServices from "./_components/services";
+import VirtualCards from "./_components/virtual-cards";
 import WhyWiremi from "./_components/why-wiremi";
 
 export default function Home() {
@@ -10,6 +12,8 @@ export default function Home() {
 			<Featured />
 			<WhyWiremi />
 			<MultiCurrencyAccount />
+			<VirtualCards />
+			<OurServices />
 		</>
 	);
 }
