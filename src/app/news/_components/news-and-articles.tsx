@@ -31,7 +31,7 @@ export default function NewsAndArticles() {
 								alt="News image"
 								className="object-cover"
 							/>
-							<div className="absolute bottom-0 py-5 px-7 flex flex-col">
+							<div className="absolute right-0 left-0 bottom-0 py-5 px-7 flex flex-col border-t border-t-[#FFFFFF33] backdrop-blur supports-[backdrop-filter]:bg-[#00000000]">
 								<Image
 									src="/logo-sm.png"
 									height={18}

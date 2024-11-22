@@ -8,7 +8,7 @@ export default function CoreValues() {
 				<SectionHeader className="text-[#105CE2]">
 					Our core values
 				</SectionHeader>
-				<h3 className="uppercase tracking-widest text-5xl bg-gradient-to-r from-[#105CE2] to-[#7E0094] text-transparent bg-clip-text font-recoleta-sb font-bold">
+				<h3 className="uppercase tracking-widest text-3xl md:text-5xl bg-gradient-to-r from-[#105CE2] to-[#7E0094] text-transparent bg-clip-text font-recoleta-sb font-bold">
 					Seamless
 				</h3>
 				<Image
@@ -22,7 +22,7 @@ export default function CoreValues() {
 						src={"/quote.png"}
 						height={200}
 						width={200}
-						className="absolute z-[1] -top-[1.7rem] left-32"
+						className="absolute z-[1] -top-[1.7rem] left-32 hidden sm:block"
 						alt="Block Quote"
 					/>
 					<div className="sm:pl-8 mb-4">Tagline</div>
