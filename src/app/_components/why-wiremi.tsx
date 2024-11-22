@@ -2,6 +2,7 @@ import SectionHeader from "@/_components/section-header";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function WhyWiremi() {
 	// male-employee-getting-used-his-new-office-job-along-with-female-colleagues.png
@@ -40,8 +41,11 @@ export default function WhyWiremi() {
 					<Button
 						className="!bg-[#105CE2] hover:backdrop-opacity-90 transition-opacity duration-300 w-fit rounded-full"
 						size={"lg"}
+						asChild
 					>
-						Read more <ArrowRight />
+						<Link href={"/about-us"}>
+							Read more <ArrowRight />
+						</Link>
 					</Button>
 				</div>
 				<div className="flex flex-col gap-4 md:gap-5 items-center">
