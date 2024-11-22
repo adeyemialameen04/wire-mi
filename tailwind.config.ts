@@ -29,8 +29,9 @@ export default {
 				"space-grotesk": ["var(--font-space-grotesk)"],
 				"be-vietnam-pro": ["var(--font-be-vietnam-pro)"],
 				"recoleta-md": ["var(--font-recoleta-medium)"],
-				"recoleta-alt-thin": ["var(--font-recoleta-thin)"],
-				"recoleta-alt-sb": ["var(--font-recoleta-semibold)"],
+				"recoleta-alt-thin": ["var(--font-recoleta-alt-thin)"],
+				"recoleta-alt-sb": ["var(--font-recoleta-alt-semibold)"],
+				"recoleta-sb": ["var(--font-recoleta-semibold)"],
 			},
 			colors: {
 				background: "hsl(var(--background))",

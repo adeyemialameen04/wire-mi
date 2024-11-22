@@ -1,5 +1,6 @@
 import Featured from "./_components/featured";
 import Hero from "./_components/hero";
+import HowItWorks from "./_components/how-it-works";
 import MultiCurrencyAccount from "./_components/multi-currency";
 import OurServices from "./_components/services";
 import VirtualCards from "./_components/virtual-cards";
@@ -14,6 +15,7 @@ export default function Home() {
 			<MultiCurrencyAccount />
 			<VirtualCards />
 			<OurServices />
+			<HowItWorks />
 		</>
 	);
 }

@@ -21,16 +21,20 @@ export const recoletaMedium = localFont({
 
 export const recoletaAltThin = localFont({
 	src: "../app/fonts/RecoletaAlt-Thin.woff2",
-	variable: "--font-recoleta-thin",
+	variable: "--font-recoleta-alt-thin",
 	weight: "200",
 });
 
 export const recoletaAltSemiBold = localFont({
 	src: "../app/fonts/RecoletaAlt-SemiBold.woff2",
+	variable: "--font-recoleta-alt-semibold",
+	weight: "600",
+});
+export const recoletaSemiBold = localFont({
+	src: "../app/fonts/Recoleta-SemiBold.woff2",
 	variable: "--font-recoleta-semibold",
 	weight: "600",
 });
-
 export const beVietnamPro = Be_Vietnam_Pro({
 	variable: "--font-be-vietnam-pro",
 	subsets: ["latin"],
