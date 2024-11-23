@@ -35,7 +35,7 @@ export default function Featured() {
 								alt="Mobile app interface"
 								width={250}
 								height={450}
-								className="rounded-lg shadow-lg"
+								className="rounded-lg shadow-lg relative z-[3]"
 							/>
 							<div className="absolute -left-10 top-1/2 transform -translate-y-1/2">
 								<Image
@@ -93,7 +93,7 @@ export default function Featured() {
 								alt="Mobile app interface"
 								width={250}
 								height={450}
-								className="rounded-lg shadow-lg"
+								className="rounded-lg shadow-lg relative z-[3]"
 							/>
 							<div className="absolute -left-10 top-1/2 transform -translate-y-1/2">
 								<Image

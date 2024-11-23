@@ -77,7 +77,14 @@ export default function Footer() {
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-7 justify-between">
 					<div className="space-y-4">
 						<div className="flex items-center space-x-2">
-							<Image src="/white-logo.png" alt="Logo" width={140} height={40} />
+							<Link href={"/"}>
+								<Image
+									src="/white-logo.png"
+									alt="Logo"
+									width={140}
+									height={40}
+								/>
+							</Link>
 						</div>
 						<div className="space-y-2">
 							<div className="flex items-center space-x-2">

@@ -1,4 +1,6 @@
-const news1 = {
+import { News } from "@/types/news";
+
+const news1: News = {
 	title: "Top 10 must have features of a payment app",
 	description:
 		"Discover the benefits of investing in the digital age and how to make the most of your investments.",
@@ -18,4 +20,4 @@ An accomplished Finance Executive with a Master’s degree in International Busi
 		`He is a Fellow of the Institute of Chartered Accountants of Nigeria (FCA), an Associate member of the Institute of Chartered Accountants England and Wales, and a Business and Finance Professional (BFB). He is also an Associate member of the Nigeria Institute of Management and the National Institute of Marketing of Nigeria.`,
 	],
 };
-export const news = [news1, news1, news1, news1];
+export const news: News[] = [news1, news1, news1, news1];

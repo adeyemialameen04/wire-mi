@@ -15,7 +15,7 @@ export default function Home() {
 			<Featured />
 			<WhyWiremi about={false} />
 			<MultiCurrencyAccount />
-			<VirtualCards />
+			<VirtualCards landing />
 			<OurServices />
 			<HowItWorks />
 			<BusinessSolutions />

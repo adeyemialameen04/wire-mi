@@ -31,7 +31,7 @@ export default function BusinessSolutions() {
 							size={"lg"}
 							asChild
 						>
-							<Link href={"/sign-up"}>
+							<Link href={"/#sign-up"}>
 								Create free account <ArrowRight />
 							</Link>
 						</Button>
@@ -40,7 +40,7 @@ export default function BusinessSolutions() {
 							size={"lg"}
 							asChild
 						>
-							<Link href={"/sign-in"}>
+							<Link href={"/#sign-in"}>
 								Sign in <ArrowRight />
 							</Link>
 						</Button>
