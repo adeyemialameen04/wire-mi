@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Travel() {
   const unorderedList = ["Fast booking", "Super experience", "Secure", "Easy to navigate"]
-  return <section className="my-12 container py-12 flex flex-col md:flex-row items-center justify-between gap-8">
+  return <section className="my-12 container py-12 flex flex-col md:flex-row items-center justify-between gap-8" id="travel">
     <div className="flex flex-col gap-3">
       <SectionHeader className="text-[#105CE2]">Travel</SectionHeader>
       <h5 className="font-recoleta-alt-sb font-semibold text-2xl text-[#00091E]">

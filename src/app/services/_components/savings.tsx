@@ -42,7 +42,7 @@ const unorderedList = [
 
 export default function Savings() {
   return (
-    <section className="py-16 bg-white relative">
+    <section className="py-16 bg-white relative" id="savings">
       <div className="container grid gap-8 grid-cols-1 md:grid-cols-2">
         <div className="flex-col flex justify-between order-1 md:order-2 md:place-self-end md:gap-20">
           <div className="flex flex-col gap-3">

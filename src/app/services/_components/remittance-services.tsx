@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function RemittanceServices() {
   return (
-    <section className={cn("py-20 border-t border-t-transparent text-black")}>
+    <section className={cn("py-20 border-t border-t-transparent text-black")} id="remittance">
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-8 md:flex-row">
         <div className={cn("flex flex-col gap-4", "order-1 md:order-2")}>
           <SectionHeader className="text-[#105CE2]">
